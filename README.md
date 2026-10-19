@@ -9,8 +9,6 @@
 </p>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=lainet.macos27-terminal-theme"><img src="https://img.shields.io/visual-studio-marketplace/v/lainet.macos27-terminal-theme?style=flat-square&color=67B5ED" alt="Visual Studio Marketplace Version" /></a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=lainet.macos27-terminal-theme"><img src="https://img.shields.io/visual-studio-marketplace/i/lainet.macos27-terminal-theme?style=flat-square&color=6CAA71" alt="Installs" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-7D92A3?style=flat-square" alt="License" /></a>
 </p>
 
