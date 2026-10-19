@@ -1,6 +1,8 @@
 {
+  "$schema": "vscode://schemas/color-theme",
   "name": "macOS 27 Terminal",
   "type": "dark",
+  "semanticHighlighting": true,
   "colors": {
     "focusBorder": "#67B5ED",
     "foreground": "#DEE5EB",
@@ -32,6 +34,25 @@
     "editorRuler.foreground": "#222A36",
     "editorBracketMatch.background": "#2B3B4B60",
     "editorBracketMatch.border": "#67B5ED80",
+    "editorBracketHighlight.foreground1": "#67B5ED",
+    "editorBracketHighlight.foreground2": "#D389E5",
+    "editorBracketHighlight.foreground3": "#E5C872",
+    "editorBracketHighlight.foreground4": "#79BE7E",
+    "editorBracketHighlight.foreground5": "#84DDE0",
+    "editorBracketHighlight.foreground6": "#DF6C5A",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#DF6C5A",
+    "editorBracketPairGuide.activeBackground1": "#67B5ED80",
+    "editorBracketPairGuide.activeBackground2": "#D389E580",
+    "editorBracketPairGuide.activeBackground3": "#E5C87280",
+    "editorBracketPairGuide.activeBackground4": "#79BE7E80",
+    "editorBracketPairGuide.activeBackground5": "#84DDE080",
+    "editorBracketPairGuide.activeBackground6": "#DF6C5A80",
+    "editorBracketPairGuide.background1": "#67B5ED25",
+    "editorBracketPairGuide.background2": "#D389E525",
+    "editorBracketPairGuide.background3": "#E5C87225",
+    "editorBracketPairGuide.background4": "#79BE7E25",
+    "editorBracketPairGuide.background5": "#84DDE025",
+    "editorBracketPairGuide.background6": "#DF6C5A25",
 
     "editorWidget.background": "#12161F",
     "editorWidget.border": "#2B3645",
@@ -333,5 +354,26 @@
         "foreground": "#79BE7E"
       }
     }
-  ]
+  ],
+  "semanticTokenColors": {
+    "newOperator": "#D389E5",
+    "stringLiteral": "#79BE7E",
+    "customLiteral": "#DEE5EB",
+    "numberLiteral": "#84DDE0",
+    "variable": "#DEE5EB",
+    "variable.readonly": "#84DDE0",
+    "parameter": "#DEE5EB",
+    "function": "#67B5ED",
+    "method": "#67B5ED",
+    "class": "#E5C872",
+    "type": "#E5C872",
+    "interface": "#84DDE0",
+    "enum": "#E5C872",
+    "enumMember": "#84DDE0",
+    "property": "#DEE5EB",
+    "property.readonly": "#84DDE0",
+    "keyword": "#D389E5",
+    "macro": "#BD7BCD",
+    "namespace": "#E5C872"
+  }
 }

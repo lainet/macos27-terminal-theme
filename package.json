@@ -5,6 +5,11 @@
   "version": "1.1.0",
   "publisher": "lainet",
   "license": "MIT",
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#161B24",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -12,8 +17,22 @@
     "type": "git",
     "url": "https://github.com/lainet/macos27-terminal-theme.git"
   },
+  "bugs": {
+    "url": "https://github.com/lainet/macos27-terminal-theme/issues"
+  },
+  "homepage": "https://github.com/lainet/macos27-terminal-theme#readme",
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "macos",
+    "terminal",
+    "dark",
+    "theme",
+    "ansi",
+    "slate",
+    "retro",
+    "apple"
   ],
   "contributes": {
     "themes": [
@@ -23,5 +42,13 @@
         "path": "./themes/macos27-terminal.json"
       }
     ]
+  },
+  "scripts": {
+    "package": "npx @vscode/vsce package --no-dependencies",
+    "vscode:prepublish": "npm run validate",
+    "validate": "npx @vscode/vsce ls"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.2.0"
   }
 }
